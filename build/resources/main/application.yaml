@@ -1,0 +1,10 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/product_db
+  username: postgres
+  password: postgres
+  driver-class-name: org.postgresql.Driver
+ flyway:
+  enabled: true
+ jpa:
+  show-sql: true
